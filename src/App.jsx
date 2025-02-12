@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <>
-      <h1 className="text-bold text-xl font-mono">Frontend Template</h1>
-    </>
-  )
-}
+import React from "react";
+import Spline from "@splinetool/react-spline";
 
-export default App
+const App = () => {
+  return (
+    <div className="h-screen flex justify-center items-center bg-gray-900">
+      <Spline scene="https://prod.spline.design/VooHLKVn63StPbNY/scene.splinecode" />
+    </div>
+  );
+};
+
+export default App;
